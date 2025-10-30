@@ -11,12 +11,12 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://ltdfoto.ru/images/2025/10/30/Marketcoin_192.png",
+      "src": "hhttps://raw.githubusercontent.com/kartoon98/marketcoin-pwa/main/icons/Marketcoin_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://ltdfoto.ru/images/2025/10/30/Marketcoin_512.png",
+      "src": "https://raw.githubusercontent.com/kartoon98/marketcoin-pwa/main/icons/Marketcoin_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
