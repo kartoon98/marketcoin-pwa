@@ -1,24 +1,83 @@
 {
-  "background_color": "#ffffff",
-  "description": "MarketCoin",
+  "id": "/",
   "dir": "ltr",
-  "display": "fullscreen",
-  "name": "MarketCoin",
-  "orientation": "landscape",
-  "scope": "https://marketcoin.io/",
-  "short_name": "TV2",
-  "start_url": "https://marketcoin.io/tv2/",
-  "theme_color": "#ffffff",
-  "icons": [
+  "lang": "en",
+  "name": "Webboard",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/",
+  "short_name": "Webboard",
+  "theme_color": "#FFFFFF",
+  "description": "Enhance your work day and solve your cross platform whiteboarding needs with webboard! Draw text, shapes, attach images and more and share those whiteboards with anyone through OneDrive!",
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "screenshots": [
     {
-      "src": "https://raw.githubusercontent.com/kartoon98/marketcoin-pwa/main/icons/Marketcoin_192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "assets/screen.png"
     },
     {
-      "src": "https://raw.githubusercontent.com/kartoon98/marketcoin-pwa/main/icons/Marketcoin_512.png",
+      "src": "assets/screen.png"
+    },
+    {
+      "src": "assets/screen.png"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "low-latency inking",
+    "fast",
+    "useful AI"
+  ],
+  "icons": [
+    {
+      "src": "/icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {},
+  "shortcuts": [
+    {
+      "name": "Start Live Session",
+      "short_name": "Start Live",
+      "description": "Jump direction into starting or joining a live session",
+      "url": "/?startLive",
+      "icons": [
+        {
+          "src": "/assets/icon/256.png",
+          "sizes": "256x256"
+        }
+      ]
     }
   ]
 }
