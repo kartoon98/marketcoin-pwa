@@ -67,15 +67,7 @@
   },
   "edge_side_panel": {},
   "shortcuts": [
-    {
-      "name": "Start Live Session",
-      "short_name": "Start Live",
-      "description": "Jump direction into starting or joining a live session",
-      "url": "/?startLive",
-      "icons": [
-        {
-          "src": "/assets/icon/256.png",
-          "sizes": "256x256"
+   
         }
       ]
     }
