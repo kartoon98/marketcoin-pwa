@@ -65,11 +65,5 @@
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
-  "edge_side_panel": {},
-  "shortcuts": [
-   
-        }
-      ]
-    }
-  ]
+  "edge_side_panel": {}
 }
