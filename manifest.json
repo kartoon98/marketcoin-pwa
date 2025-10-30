@@ -1,0 +1,19 @@
+{
+  "background_color": "#ffffff",
+  "description": "MarketCoin",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "MarketCoin",
+  "orientation": "landscape",
+  "scope": "marketcoin.io/",
+  "short_name": "TV2",
+  "start_url": "https://marketcoin.io/tv2/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://ltdfoto.ru/images/2025/10/30/M_logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
