@@ -5,13 +5,18 @@
   "display": "fullscreen",
   "name": "MarketCoin",
   "orientation": "landscape",
-  "scope": "marketcoin.io/",
+  "scope": "https://marketcoin.io/",
   "short_name": "TV2",
   "start_url": "https://marketcoin.io/tv2/",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "https://ltdfoto.ru/images/2025/10/30/M_logo.png",
+      "src": "https://ltdfoto.ru/images/2025/10/30/Marketcoin_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://ltdfoto.ru/images/2025/10/30/Marketcoin_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
